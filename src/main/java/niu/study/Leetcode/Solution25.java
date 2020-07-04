@@ -34,7 +34,7 @@ class Solution25 {
         Solution25 solution25 = new Solution25();
         int[] array = {3,9,8,7,5};
         ListNode head = ListNode.setListNode(array);
-        ListNode node = solution25.reverseKGroup(head, 2);
+        ListNode node = solution25.reverseKGroup(head, 3);
         while(node != null){
             System.out.print(node.val+"->");
             node = node.next;
