@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e8e85b2-6f19-4827-8c7e-7642d6709272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/swordpointoffer/Solution57_I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/swordpointoffer/Solution57_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/network/socket/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/network/socket/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/network/socket/TimeServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/niu/study/swordpointoffer/Solution56_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/niu/study/swordpointoffer/Solution56_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19195402" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -109,7 +110,7 @@
       <command value="tomcat:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution56_II">
+  <component name="RunManager" selected="Application.TimeClient">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="niu.study.network.socket.Client" />
       <module name="new5" />
@@ -136,19 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niu.study.swordpointoffer.Solution51" />
-      <module name="new5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="niu.study.swordpointoffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution56_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="niu.study.swordpointoffer.Solution56_II" />
       <module name="new5" />
@@ -162,18 +150,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niu.study.network.socket.TimeClient" />
       <module name="new5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niu.study.algorithm.sort.*" />
+          <option name="PATTERN" value="niu.study.network.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="niu.study.algorithm.sort" />
-      <option name="MAIN_CLASS_NAME" value="niu.study.algorithm.sort.MergeSort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niu.study.network.socket.TimeServer" />
+      <module name="new5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niu.study.network.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -293,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeClient" />
+        <item itemvalue="Application.TimeServer" />
         <item itemvalue="Application.Solution56_II" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Solution51" />
-        <item itemvalue="JUnit.MergeSort.test" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +434,9 @@
       <workItem from="1593652303063" duration="18263000" />
       <workItem from="1593739056594" duration="25913000" />
       <workItem from="1593836623806" duration="16016000" />
-      <workItem from="1593925781023" duration="13692000" />
+      <workItem from="1593925781023" duration="14930000" />
+      <workItem from="1593998899212" duration="7718000" />
+      <workItem from="1594011359143" duration="9440000" />
     </task>
     <task id="LOCAL-00001" summary="47-50">
       <created>1593687451452</created>
@@ -452,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593934494345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="56">
+      <created>1593945029868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593945029868</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,6 +475,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1592790808728" />
+    <state x="433" y="81" key="#TimeClient" timestamp="1594012759869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="433" y="81" key="#TimeClient/0.0.1536.824@0.0.1536.824" timestamp="1594012759869" />
     <state x="223" y="46" width="1089" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592205095418">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -500,30 +511,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="382" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1590050229931" />
-    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1593945016894">
+    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1593945028845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593945016894" />
+    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593945028845" />
     <state x="570" y="154" key="FileChooserDialogImpl" timestamp="1593349939747">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593349939747" />
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1593935339422">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1594014060119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593935339422" />
-    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1593935339422">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594014060119" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1594014060119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593935339422" />
-    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1593935339422">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594014060119" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1594014060119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593935339422" />
-    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1593935339422">
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594014060119" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1594014060119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593935339422" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594014060119" />
     <state width="1493" height="397" key="GridCell.Tab.1.bottom" timestamp="1593565978148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -544,18 +555,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="110" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1592300381143" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1592300374431">
+    <state x="270" y="0" key="SettingsEditor" timestamp="1594011151199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592300374431" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593934502207">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594011151199" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593945036057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593934502207" />
-    <state x="450" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1593926660076">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593945036057" />
+    <state x="450" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1594011359125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="450" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593926660076" />
+    <state x="450" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594011359125" />
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1594010575191">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594010575191" />
     <state x="178" y="107" key="new project wizard" timestamp="1590973542020">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -572,9 +587,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593395419731" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593944540650">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594010559257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593944540650" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594010559257" />
   </component>
 </project>
