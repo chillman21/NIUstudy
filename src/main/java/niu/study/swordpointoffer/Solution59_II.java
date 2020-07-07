@@ -16,19 +16,19 @@ public class Solution59_II {
         }
 
         public int max_value() {
-            return deq.size() > 0 ? deq.peekFirst() : -1;  //双端队列的队首为que的最大值
+            return !deq.isEmpty() ? deq.peekFirst() : -1;  //双端队列的队首为que的最大值
         }
 
         public void push_back(int value) {
             que.add(value);  //value入队
-            while (!deq.isEmpty() && deq.peekLast() < value) {
+            while (!deq.isEmpty() && value > deq.peekLast()) {
                 deq.removeLast();  //将deq队尾小于value的元素删掉
             }
             deq.addLast(value);  //将value放在deq队尾
         }
 
         public int pop_front() {
-            int tmp = que.size() > 0 ? que.poll() : -1;  //获得队首元素
+            int tmp = !que.isEmpty() ? que.poll() : -1;  //获得队首元素
             if (!deq.isEmpty() && deq.peekFirst() == tmp) {
                 deq.removeFirst();  //如果出队的元素是当前最大值，将deq的队首出队
             }

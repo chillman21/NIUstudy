@@ -17,6 +17,7 @@ public class MyThread extends  Thread {
 
     public static void main(String[] args) {
         MyThread shabi = new MyThread("shabi");
+        Thread thread = new Thread();
         shabi.start();
     }
 }
