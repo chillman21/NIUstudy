@@ -1,10 +1,13 @@
 package niu.study.thread.singleton;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+
 /**
  * 懒汉式单例
  */
 public class Lazy {
-    //private static boolean niuge = false;
+    private static boolean niuge = false;
     private Lazy(){
 //        synchronized (Lazy.class){
 //            if (niuge == false){
@@ -37,7 +40,7 @@ public class Lazy {
         }
         return lazy;
     }
-/*
+
     public static void main(String[] args) throws Exception {
         Field niuge = Lazy.class.getDeclaredField("niuge");
         niuge.setAccessible(true);
@@ -49,15 +52,14 @@ public class Lazy {
         System.out.println(lazy);
         System.out.println(lazy1);
     }
-    */
 
     //单线程下懒汉单例确实ok
     //多线程并发
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            new Thread(()->{
-                Lazy.getInstance();
-            }).start();
-        }
-    }
+//    public static void main(String[] args) {
+//        for (int i = 0; i < 10; i++) {
+//            new Thread(()->{
+//                Lazy.getInstance();
+//            }).start();
+//        }
+//    }
 }

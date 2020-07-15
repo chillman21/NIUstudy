@@ -12,7 +12,7 @@ import java.util.Arrays;
  *       体现在相同数字会由于不同pivot的选取在排序后原有顺序改变。
  *
  */
-public class QuickSort {
+public class  QuickSort {
     public static void main(String[] args) {
         int[] arr = {3,5,4,1,2};
         QuickSort sort = new QuickSort();

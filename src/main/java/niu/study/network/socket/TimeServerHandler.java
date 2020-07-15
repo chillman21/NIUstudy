@@ -29,7 +29,7 @@ public class TimeServerHandler implements Runnable {
                 if (!"GET CURRENT TIME".equals(request)) {
                     writer.println("BAD_REQUEST");
                 } else {
-                    writer.println(Calendar.getInstance().getTime().toLocaleString());
+                    writer.println(Calendar.getInstance().getTime().toString());
                 }
                 writer.flush();
             }
