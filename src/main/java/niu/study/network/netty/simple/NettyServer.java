@@ -1,10 +1,7 @@
 package niu.study.network.netty.simple;
 
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelOption;
-import io.netty.channel.EventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -17,10 +14,10 @@ public class NettyServer {
          * 2.bossGroup只是处理连接请求，真正和客户端业务处理会交给workerGroup完成
          * 3.两个都是无限循环
          * 4.bossGroup和workerGroup 含有的子线程(NioEventLoop)的个数
-         *    默认实际 cpu 核数 * 2
+         *    默认实际 cpu 处理器数 * 2
          */
-        EventLoopGroup bossGroup = new NioEventLoopGroup();
-        EventLoopGroup workerGroup = new NioEventLoopGroup();
+        EventLoopGroup bossGroup = new NioEventLoopGroup(1);
+        EventLoopGroup workerGroup = new NioEventLoopGroup(2);
         try {
             //创建服务器端的启动对象，配置参数
             ServerBootstrap bootstrap = new ServerBootstrap();
@@ -37,6 +34,16 @@ public class NettyServer {
                 });
             System.out.println("...服务器 is ready..");
             ChannelFuture cf = bootstrap.bind(6668).sync();//异步地绑定服务器;调用 sync() 方法阻塞等待直到绑定完成,调用的sync()的目的就是保证ChannelFuture已经完成了
+            cf.addListener(new ChannelFutureListener() {
+                @Override
+                public void operationComplete(ChannelFuture future) throws Exception {
+                    if (future.isSuccess()) {
+                        System.out.println("监听端口 6668成功");
+                    } else {
+                        System.out.println("监听端口 6668失败");
+                    }
+                }
+            });
             //对关闭通道进行监听
             cf.channel().closeFuture().sync();
         } catch (InterruptedException e) {
