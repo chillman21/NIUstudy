@@ -14,7 +14,7 @@ public class Lazy {
     }
 
     public static Lazy getInstance() {
-            if(INSTANCE==null){
+            if (INSTANCE==null) {
             synchronized (Lazy.class) {
                 if (INSTANCE == null) {
 //                    try {

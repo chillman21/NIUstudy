@@ -1,4 +1,4 @@
-package niu.study.thread.CAS;
+package niu.study.thread.cas;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicStampedReference;

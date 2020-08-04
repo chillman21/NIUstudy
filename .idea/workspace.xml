@@ -2,18 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e8e85b2-6f19-4827-8c7e-7642d6709272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution124.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution199_BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution199_DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution236.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution88.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/test/ThreadPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/DesignPattern/facade/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/DesignPattern/facade/LabourContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/DesignPattern/facade/subclasses/BrickLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/DesignPattern/facade/subclasses/BrickWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/DesignPattern/facade/subclasses/Mason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution128.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution92.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/datastructure/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/datastructure/TreeOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/test/InterruptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/test/iPlusPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/atomic/AtomicArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/atomic/AtomicIntegerDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/atomic/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/atomic/AtomicLongDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/atomic/LongAccumulatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/atomic/LongAdderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/threadlocal/ThreadLocalNormalUsage1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/threadlocal/ThreadLocalNormalUsage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/threadpool/PauseableThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JoinInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/JoinPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/ReentrantLock/FairLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/ReentrantLock/LockInterruptibly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/cas/SimulatedCAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/interview/AlternatePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/interview/AlternatePrint2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/interview/AlternatePrint3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/interview/AlternatePrint4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/interview/AlternatePrint5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/interview/ProducerConsumerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/stopthreads/RightWayInterrupted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/uncaughtexception/CantCatchDirectly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/uncaughtexception/ExceptionInChildThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/uncaughtexception/MyUncaughtExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/uncaughtexception/UseOwnUncaughtExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/niu/study/network/netty/simple/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/niu/study/network/netty/simple/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/niu/study/DesignPattern/singleton/Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/niu/study/DesignPattern/singleton/Lazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution146.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/niu/study/Leetcode/Solution146.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/niu/study/thread/CAS/CASDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/cas/CASDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/niu/study/thread/Stream/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/Stream/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/niu/study/thread/stopthreads/solution/RightWaysStopThreadInProduct2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/niu/study/thread/stopthreads/solution/RightWaysStopThreadInProduct2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +119,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/niu/study/thread/JUC/atomic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,22 +131,22 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19195402" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\network\netty\websocket" />
-      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\network\netty\heartbeat" />
-      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\network\netty\groupchat" />
-      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\network\netty\buf" />
-      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\thread\stopthreads\volatiledemo" />
+      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\thread\JUC\atomic" />
+      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\thread\JUC\threadpool" />
+      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\thread\ReentrantLock" />
+      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\thread\JUC\threadlocal" />
+      <recent name="D:\STUDY\JavaProject\new5\src\main\java\niu\study\thread" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="niu.study.thread.interview" />
       <recent name="niu.study.DesignPattern.factory.simplefactory.pizzastore" />
       <recent name="niu.study.thread.stopthreads.solution" />
       <recent name="niu.study.thread.stopthreads" />
       <recent name="niu.study.test.singleton" />
-      <recent name="niu.study.swordpointoffer" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="niu.servlet.Leetcode" />
@@ -126,13 +157,13 @@
       <command value="tomcat:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution33">
-    <configuration name="BuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niu.study.DesignPattern.builder.BuilderTest" />
+  <component name="RunManager" selected="Application.AtomicIntegerFieldUpdaterDemo">
+    <configuration name="AtomicIntegerFieldUpdaterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niu.study.thread.JUC.atomic.AtomicIntegerFieldUpdaterDemo" />
       <module name="new5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niu.study.DesignPattern.builder.*" />
+          <option name="PATTERN" value="niu.study.thread.JUC.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niu.study.DesignPattern.factory.simplefactory.pizzastore.PizzaStore" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niu.study.DesignPattern.facade.Client" />
       <module name="new5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niu.study.DesignPattern.factory.simplefactory.pizzastore.*" />
+          <option name="PATTERN" value="niu.study.DesignPattern.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niu.study.DesignPattern.factory.simplefactory.SimpleFactory" />
+    <configuration name="LockInterruptibly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niu.study.thread.ReentrantLock.LockInterruptibly" />
       <module name="new5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niu.study.DesignPattern.factory.simplefactory.*" />
+          <option name="PATTERN" value="niu.study.thread.ReentrantLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niu.study.Leetcode.Solution33" />
+    <configuration name="RBTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niu.study.datastructure.RBTree" />
       <module name="new5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niu.study.Leetcode.*" />
+          <option name="PATTERN" value="niu.study.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,8 +210,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niu.study.test.ThreadPoolTest" />
+    <configuration name="iPlusPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niu.study.test.iPlusPlus" />
       <module name="new5" />
       <extension name="coverage">
         <pattern>
@@ -307,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution33" />
-        <item itemvalue="Application.ThreadPoolTest" />
-        <item itemvalue="Application.BuilderTest" />
-        <item itemvalue="Application.SimpleFactory" />
-        <item itemvalue="Application.PizzaStore" />
+        <item itemvalue="Application.AtomicIntegerFieldUpdaterDemo" />
+        <item itemvalue="Application.RBTree" />
+        <item itemvalue="Application.iPlusPlus" />
+        <item itemvalue="Application.LockInterruptibly" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +505,17 @@
       <workItem from="1595488698259" duration="1898000" />
       <workItem from="1595765949615" duration="10942000" />
       <workItem from="1595831087137" duration="24168000" />
-      <workItem from="1595912988714" duration="8360000" />
+      <workItem from="1595912988714" duration="12859000" />
+      <workItem from="1595998346914" duration="15028000" />
+      <workItem from="1596094331902" duration="2420000" />
+      <workItem from="1596131563326" duration="849000" />
+      <workItem from="1596176219782" duration="12347000" />
+      <workItem from="1596270044613" duration="5843000" />
+      <workItem from="1596289123244" duration="1748000" />
+      <workItem from="1596351533274" duration="3687000" />
+      <workItem from="1596446670969" duration="2433000" />
+      <workItem from="1596526526746" duration="11625000" />
+      <workItem from="1596544560210" duration="8587000" />
     </task>
     <task id="LOCAL-00001" summary="47-50">
       <created>1593687451452</created>
@@ -574,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595317148778</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="做了很多leetcode新题">
+      <created>1595925933845</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595925933845</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,17 +640,22 @@
     <MESSAGE value="netty初体验" />
     <MESSAGE value="netty群聊" />
     <MESSAGE value="建造者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="建造者模式" />
+    <MESSAGE value="做了很多leetcode新题" />
+    <option name="LAST_COMMIT_MESSAGE" value="做了很多leetcode新题" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="623" y="176" key="#CantInterrupt" timestamp="1596011230724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="176" key="#CantInterrupt/0.0.1920.1040@0.0.1920.1040" timestamp="1596011230724" />
     <state x="623" y="189" key="#GroupChatClient" timestamp="1595144549824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="189" key="#GroupChatClient/0.0.1920.1040@0.0.1920.1040" timestamp="1595144549824" />
-    <state x="361" y="71" key="#Inspections" timestamp="1592790808728">
+    <state x="361" y="71" key="#Inspections" timestamp="1596529725379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1592790808728" />
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1596529725379" />
     <state x="623" y="189" key="#NIOClient" timestamp="1594888437507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -623,11 +676,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1592447255817" />
-    <state x="650" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1595315286146">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="520" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1596563041968">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="520" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594917670537" />
-    <state x="650" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595315286146" />
+    <state x="520" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596563041968" />
+    <state x="650" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596179664225" />
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590996171246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -644,69 +697,69 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="382" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1590050229931" />
-    <state x="465" y="5" key="CommitChangelistDialog2" timestamp="1595317147582">
+    <state x="465" y="5" key="CommitChangelistDialog2" timestamp="1595925930485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594274659046" />
-    <state x="465" y="5" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595317147582" />
+    <state x="465" y="5" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595925930485" />
     <state width="661" height="466" key="DebuggerActiveHint" timestamp="1594993295951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="661" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1594993295951" />
-    <state x="713" y="194" key="FileChooserDialogImpl" timestamp="1595491825700">
+    <state x="713" y="194" key="FileChooserDialogImpl" timestamp="1596011260264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="570" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594173509985" />
-    <state x="713" y="194" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595491825700" />
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1595923325664">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="713" y="194" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596011260264" />
+    <state width="1493" height="363" key="GridCell.Tab.0.bottom" timestamp="1596538310517">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="87" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594918057530" />
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595923325664" />
-    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1595923325664">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="363" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596538310517" />
+    <state width="1877" height="24" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596457355259" />
+    <state width="1493" height="363" key="GridCell.Tab.0.center" timestamp="1596538310517">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="87" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594918057530" />
-    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595923325664" />
-    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1595923325664">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="363" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596538310517" />
+    <state width="1877" height="24" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596457355259" />
+    <state width="1493" height="363" key="GridCell.Tab.0.left" timestamp="1596538310517">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="87" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594918057530" />
-    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595923325664" />
-    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1595923325664">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="363" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596538310517" />
+    <state width="1877" height="24" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596457355259" />
+    <state width="1493" height="363" key="GridCell.Tab.0.right" timestamp="1596538310517">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="87" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594918057530" />
-    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595923325664" />
-    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1595923325664">
+    <state width="1493" height="363" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596538310517" />
+    <state width="1877" height="24" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596457355259" />
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1595946444013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="397" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593565978148" />
-    <state width="1877" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595923325664" />
-    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1595923325664">
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595946444013" />
+    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1595946444013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="397" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593565978148" />
-    <state width="1877" height="311" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595923325664" />
-    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1595923325664">
+    <state width="1877" height="311" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595946444013" />
+    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1595946444013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="397" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593565978148" />
-    <state width="1877" height="311" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595923325664" />
-    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1595923325664">
+    <state width="1877" height="311" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595946444013" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1595946444013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="397" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593565978148" />
-    <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595923325664" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595946444013" />
     <state x="408" y="110" key="NewModule_or_Project.wizard" timestamp="1592300381143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="110" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1592300381143" />
-    <state x="338" y="0" key="SettingsEditor" timestamp="1594817101292">
+    <state x="338" y="0" key="SettingsEditor" timestamp="1596446895760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594011151199" />
-    <state x="338" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594817101292" />
+    <state x="338" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596446895760" />
     <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1594805144011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -716,20 +769,25 @@
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594274664792" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595317152262" />
-    <state x="563" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1595913074681">
+    <state width="796" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1596447498320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="450" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594280521049" />
-    <state x="563" y="299" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595913074681" />
+    <state width="796" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1596447498320" />
+    <state x="450" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1596544559510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="450" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596544559510" />
+    <state x="563" y="299" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596176552394" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594986301718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594917834176" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594986301718" />
-    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1595264134595">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="559" y="183" width="803" height="674" key="find.popup" timestamp="1596131766404">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595264134595" />
+    <state x="559" y="183" width="803" height="674" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596131766404" />
     <state x="178" y="107" key="new project wizard" timestamp="1590973542020">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -738,10 +796,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1593944540182" />
-    <state x="470" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1587541112843">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="470" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1587541112843" />
     <state x="531" y="236" width="840" height="855" key="run.anything.popup" timestamp="1595847752694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
