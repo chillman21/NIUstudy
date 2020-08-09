@@ -26,5 +26,6 @@ public class Solution84 {
         }
 
         return area;
+
     }
 }
